@@ -1,9 +1,9 @@
 # 医院挂号网站
-首页:https://alexhyman.github.io/HospitalRegistration/
+首页:https://alexhyman.github.io/HospitalRegistration/  
 挂号页(待完善)
 
 ### 说明：
-  
+这是一个医院挂号网站
   
 ### 实现功能：
 #### 首页：
