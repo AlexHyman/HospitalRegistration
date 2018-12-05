@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Hospital</title>
+        <link rel="stylesheet" href="css/layout.css" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/ui.css" />
+
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    </head>
+
+    <body>
+        <div id="top" class="top">
+            <div class="wrap">
+                <p class="call">010-114/116114 电话预约</p>
+                <p class="welcome">
+                    欢迎来到城市医院预约挂号统一平台&nbsp; 请&nbsp;
+                    <a href="#">登录</a>
+                    <a href="#">注册</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#">帮助中心</a>
+                </p>
+            </div>
+        </div>
+
+        <div id="header" class="header">
+            <div class="wrap clearfix">
+                <a class="logo" href="index.html"><img src="img/logo.png" /></a>
+                <div class="search ui-search">
+                    <div class="ui-search-selected">医院</div>
+                    <div class="ui-search-select-list">
+                        <a href="#">科室</a> <a href="#">疾病</a>
+                        <a href="#">医院</a>
+                    </div>
+                    <input
+                        type="text"
+                        name="search-content"
+                        class="ui-search-input"
+                        placeholder="请输入搜索内容"
+                    />
+                    <a href="#" class="ui-search-submit">&nbsp;</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav" class="nav">
+            <div class="wrap">
+                <div class="link menu">
+                    全部科室
+                    <div class="menu-list ui-menu">
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">外科</a>
+                            <a href="#" class="ui-menu-item-disease">脑血栓</a>
+                            <a href="#" class="ui-menu-item-disease">冠心病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">内科</a>
+                            <a href="#" class="ui-menu-item-disease">高血压</a>
+                            <a href="#" class="ui-menu-item-disease">风湿病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">外科</a>
+                            <a href="#" class="ui-menu-item-disease">脑血栓</a>
+                            <a href="#" class="ui-menu-item-disease">冠心病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">内科</a>
+                            <a href="#" class="ui-menu-item-disease">高血压</a>
+                            <a href="#" class="ui-menu-item-disease">风湿病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">外科</a>
+                            <a href="#" class="ui-menu-item-disease">脑血栓</a>
+                            <a href="#" class="ui-menu-item-disease">冠心病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">内科</a>
+                            <a href="#" class="ui-menu-item-disease">高血压</a>
+                            <a href="#" class="ui-menu-item-disease">风湿病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">外科</a>
+                            <a href="#" class="ui-menu-item-disease">脑血栓</a>
+                            <a href="#" class="ui-menu-item-disease">冠心病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">内科</a>
+                            <a href="#" class="ui-menu-item-disease">高血压</a>
+                            <a href="#" class="ui-menu-item-disease">风湿病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">外科</a>
+                            <a href="#" class="ui-menu-item-disease">脑血栓</a>
+                            <a href="#" class="ui-menu-item-disease">冠心病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        外科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                        <a href="#">普通外科</a>
+                                        <a href="#">神经外科</a>
+                                        <a href="#">心胸外科</a>
+                                        <a href="#">泌尿外科</a>
+                                        <a href="#">心血管外科</a>
+                                        <a href="#">乳腺外科</a>
+                                        <a href="#">肝胆外科</a>
+                                        <a href="#">器官移植</a>
+                                        <a href="#">肛肠外科</a>
+                                        <a href="#">烧伤科</a>
+                                        <a href="#">骨外科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui-menu-item">
+                            <a href="#" class="ui-menu-item-department">内科</a>
+                            <a href="#" class="ui-menu-item-disease">高血压</a>
+                            <a href="#" class="ui-menu-item-disease">风湿病</a>
+                            <div class="ui-menu-item-detail">
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                                <div class="ui-menu-item-detail-group">
+                                    <div
+                                        class="ui-menu-item-detail-group-caption"
+                                    >
+                                        内科常见疾病
+                                    </div>
+                                    <div class="ui-menu-item-detail-group-list">
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                        <a href="#">呼吸内科</a>
+                                        <a href="#">消化内科</a>
+                                        <a href="#">神经内科</a>
+                                        <a href="#">心血管内科</a>
+                                        <a href="#">肾内科</a>
+                                        <a href="#">血液内科</a>
+                                        <a href="#">免疫科</a>
+                                        <a href="#">内分泌科</a>
+                                        <a href="#">感染内科</a>
+                                        <a href="#">变态反应科</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="hospital.html" class="link">按医院挂号</a>
+                <a href="#" class="link">按科室挂号</a>
+                <a href="#" class="link">按疾病挂号</a>
+                <a href="#" class="link">最新公告</a>
+                <a href="#" class="link right">社会知名医院</a>
+            </div>
+        </div>
+
+        <div id="banner" class="banner">
+            <div class="banner-slider ui-slider">
+                <div class="ui-slider-wrap">
+                    <a href="#0" class="item"
+                        ><img src="img/banner_1.jpg" alt="banner_1"
+                    /></a>
+                    <a href="#1" class="item"
+                        ><img src="img/banner_2.jpg" alt="banner_2"
+                    /></a>
+                    <a href="#2" class="item"
+                        ><img src="img/banner_3.jpg" alt="banner_3"
+                    /></a>
+                </div>
+
+                <div class="ui-slider-arrow">
+                    <a href="#l" class="item left">&nbsp;</a>
+                    <a href="#r" class="item right">&nbsp;</a>
+                </div>
+
+                <div class="ui-slider-process">
+                    <a href="#0" class="item item_focus">&nbsp;</a>
+                    <a href="#1" class="item">&nbsp;</a>
+                    <a href="#2" class="item">&nbsp;</a>
+                </div>
+            </div>
+
+            <div class="banner-search">
+                <div class="caption"><span class="text">快速预约</span></div>
+                <div class="form">
+                    <div class="line">
+                        <select
+                            name="area"
+                            data-search="getDistinctArea"
+                            data-wwhere=""
+                        >
+                            <option>医院地区</option>
+                        </select>
+                    </div>
+                    <div class="line">
+                        <select
+                            name="level"
+                            data-search="getLevelByArea"
+                            data-wwhere=""
+                        >
+                            <option>医院等级</option>
+                        </select>
+                    </div>
+                    <div class="line">
+                        <select
+                            name="name"
+                            data-search="getNameByAreaAndLevel"
+                            data-wwhere=""
+                        >
+                            <option>医院名称</option>
+                        </select>
+                    </div>
+                    <div class="line">
+                        <select
+                            name="department"
+                            data-search="getDepartmentArrByHosptialName"
+                            data-wwhere=""
+                        >
+                            <option>医院科室</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-help">
+                <div class="caption"><span class="text">帮助中心</span></div>
+                <div class="list">
+                    <a href="#" class="link">账号指南</a>
+                    <a href="#" class="link">预约指南</a>
+                    <a href="#" class="link">账号找回</a>
+                    <a href="#" class="link">常见问题</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="content" class="content">
+            <div class="wrap clearfix">
+                <div class="content-tab">
+                    <div class="caption">
+                        <a href="#" class="item item_focus">医院</a>
+                        <a href="#" class="item">科室</a>
+                    </div>
+
+                    <div class="block">
+                        <div class="item">
+                            <div class="block-caption">
+                                <a
+                                    href="#"
+                                    class="block-caption-item block-caption-item_focus"
+                                    >全部</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >天河区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >越秀区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >海珠区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >荔湾区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >番禺区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >白云区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >黄浦区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >花都区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >增城区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >从化区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >南沙区</a
+                                >
+                            </div>
+                            <div class="block-content">
+                                <div class="block-wrap">
+                                    <div class="block-list clearfix">
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-1.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-2.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-3.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-4.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                    </div>
+                                    <div class="block-text-list clearfix">
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                    </div>
+                                    <div class="block-more">更多医院</div>
+                                </div>
+                                <div class="block-wrap" style="display:none;">
+                                    <div class="block-list clearfix">
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-1.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-2.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-3.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-4.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                    </div>
+                                    <div class="block-text-list clearfix">
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                    </div>
+                                    <div class="block-more">更多医院</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item" style="display:none;">
+                            <div class="block-caption">
+                                <a
+                                    href="#"
+                                    class="block-caption-item block-caption-item_focus"
+                                    >全部</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >南海区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >越秀区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >海珠区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >荔湾区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >番禺区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >白云区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >黄浦区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >花都区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >增城区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >从化区</a
+                                >
+                                <a href="#" class="block-caption-item"
+                                    >南沙区</a
+                                >
+                            </div>
+                            <div class="block-content">
+                                <div class="block-wrap">
+                                    <div class="block-list clearfix">
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-1.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-2.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-3.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-4.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                    </div>
+                                    <div class="block-text-list clearfix">
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                    </div>
+                                    <div class="block-more">更多医院</div>
+                                </div>
+                                <div class="block-wrap" style="display:none;">
+                                    <div class="block-list clearfix">
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-1.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-2.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-3.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                        <div class="item">
+                                            <img
+                                                src="img/hospital-4.jpg"
+                                                alt="xx医院"
+                                            />
+                                            <div class="item-name">
+                                                北京协和医院<span
+                                                    class="item-level"
+                                                    >【三级甲等】</span
+                                                >
+                                            </div>
+                                            <div class="item-phone">
+                                                010-88888888
+                                            </div>
+                                            <div class="address">北京</div>
+                                        </div>
+                                    </div>
+                                    <div class="block-text-list clearfix">
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                        <a href="#" class="item"
+                                            >首都儿科研究所附属儿童医院<span
+                                                class="level"
+                                                >【三级甲等】</span
+                                            ></a
+                                        >
+                                    </div>
+                                    <div class="block-more">更多医院</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-news">
+                    <div class="caption">
+                        最新公告<a href="#8" class="more">| 更多</a>
+                    </div>
+                    <div class="list">
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                    </div>
+                </div>
+
+                <div class="content-close">
+                    <div class="caption">
+                        停诊公告<a href="#8" class="more">| 更多</a>
+                    </div>
+                    <div class="list">
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                        <a href="#" class="link">...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="footer">Designed by Hyman</div>
+
+        <script src="js/ui.js"></script>
+    </body>
+</html>
